@@ -1,0 +1,30 @@
+POST&https%3A%2F%2Ftraining.atlas4learning.org%2Fenrol%2Flti%2Ftool.php&ext_basiclti_submit%3DSomething%26ext_user_username%3Duser%26id%3D2%26launch_presentation_document_target%3Diframe%26launch_presentation_return_url%3Dfoo.url%26lis_person_contact_email_primary%3Duser%2540example.com%26lis_person_sourcedid%3D%26lti_message_type%3Dbasic-lti-launch-request%26lti_version%3DLTI-1p0%26oauth_callback%3Dabout%253Ablank%26oauth_consumer_key%3Dsomerandomvalue123%26oauth_nonce%3D1234567%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1680897368%26oauth_version%3D1.0%26resource_link_id%3D1%26roles%3DStudent%26tool_consumer_instance_description%3Ddescription%26tool_consumer_instance_guid%3Dput%2520your%2520site%2520url%2520here%26tool_consumer_instance_name%3DMy%2520glorious%2520platform%26user_id%3D2
+POST&https%3A%2F%2Ftraining.atlas4learning.org%2Fenrol%2Flti%2Ftool.php&custom_id%3D2%26ext_basiclti_submit%3DSomething%26ext_user_username%3Duser%26id%3D2%26launch_presentation_document_target%3Diframe%26launch_presentation_return_url%3Dfoo.url%26lis_person_contact_email_primary%3Duser%2540example.com%26lti_message_type%3Dbasic-lti-launch-request%26lti_version%3DLTI-1p0%26oauth_callback%3Dabout%253Ablank%26oauth_consumer_key%3Dsomerandomvalue123%26oauth_nonce%3D1234567%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1680897368%26oauth_version%3D1.0%26resource_link_id%3D2%26roles%3DStudent%26tool_consumer_instance_description%3Ddescription%26tool_consumer_instance_guid%3Dput%2520your%2520site%2520url%2520here%26tool_consumer_instance_name%3DMy%2520glorious%2520platform%26user_id%3D2
+
+
+$launch = 'https://training.atlas4learning.org/enrol/lti/tool.php?id=2';
+$consumer_secret = 'jyUZ0wAPvGTzoFfyuGRQh90yLV9xiqC4';
+
+
+<input name="id" value="2">
+<input name="oauth_version" value="1.0">
+<input name="oauth_nonce" value="1234567">
+<input name="oauth_timestamp" value="1680897368">
+<input name="oauth_consumer_key" value="somerandomvalue123">
+<input name="lti_message_type" value="basic-lti-launch-request">
+<input name="lti_version" value="LTI-1p0">
+<input name="oauth_signature_method" value="HMAC-SHA1">
+<input name="oauth_callback" value="about:blank">
+<input name="resource_link_id" value="1">
+<input name="user_id" value="2">
+<input name="lis_person_sourcedid" value="">
+<input name="roles" value="Student">
+<input name="ext_user_username" value="user">
+<input name="tool_consumer_instance_guid" value="put your site url here">
+<input name="tool_consumer_instance_name" value="My glorious platform">
+<input name="tool_consumer_instance_description" value="description">
+<input name="launch_presentation_document_target" value="iframe">
+<input name="launch_presentation_return_url" value="foo.url">
+<input name="lis_person_contact_email_primary" value="user@example.com">
+<input name="oauth_signature" value="+XNEqZepb2Y1hm+1FIwtI6AXsEI=">
+
