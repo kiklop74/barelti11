@@ -11,6 +11,11 @@
     <name>bareapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <scm>
+        <connection>scm:git:ssh://git@github.com:kiklop74/barelti11.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:kiklop74/barelti11.git</developerConnection>
+        <url>https://github.com/kiklop74/barelti11</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,6 +40,14 @@
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-scm-plugin</artifactId>
+                  <version>2.0.0</version>
+                  <configuration>
+                    <goals>install</goals>
+                  </configuration>
+                </plugin>                
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.1.0</version>
