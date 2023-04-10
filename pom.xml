@@ -12,9 +12,10 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <scm>
-        <connection>scm:git:ssh://git@github.com:kiklop74/barelti11.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:kiklop74/barelti11.git</developerConnection>
+        <connection>scm:git:git@github.com:kiklop74/barelti11.git</connection>
+        <developerConnection>scm:git:git@github.com:kiklop74/barelti11.git</developerConnection>
         <url>https://github.com/kiklop74/barelti11</url>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
